@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  --purple-primary: #6a0dad;
+  --purple-light: #9f76ff;
+  --accent-yellow: #ffc700;
+  --accent-soft: #f3e5f5;
+  --neutral-dark: #222;
+  --neutral-light: #fff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--accent-soft);
+  margin: 0;
+  padding: 0;
+  color: var(--neutral-dark);
+}
+
+header, nav, footer {
+  background-color: var(--purple-primary);
+  color: white;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: var(--accent-yellow);
+}
+
+.logo {
+  max-height: 50px;
+}
+
+h1, h2, h3 {
+  color: var(--purple-primary);
+  font-weight: 600;
+}
+
+.section {
+  padding: 40px 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.btn {
+  background-color: var(--purple-primary);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--purple-light);
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
