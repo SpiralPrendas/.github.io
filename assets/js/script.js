@@ -1,1 +1,0 @@
-// Aquí puedes agregar scripts interactivos si los necesitas
